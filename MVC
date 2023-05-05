@@ -1,1 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T13:14:27.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.0.10" etag="OUxkGJNXS1yq8rqgj-Wv" type="github"><diagram name="第 1 页" id="cJw4bD3l44tpcd3lLj6S">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-05-05T13:39:07.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="KFHWfYby5FnRJ6pKqd2j" version="21.0.10" type="github">
+  <diagram name="第 1 页" id="cJw4bD3l44tpcd3lLj6S">
+    <mxGraphModel dx="964" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VUcrT0227LI-CP4dEkzV-1" value="用户" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.98;entryY=0.745;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-2" target="VUcrT0227LI-CP4dEkzV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-2" target="VUcrT0227LI-CP4dEkzV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.156;exitY=1.022;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-2" target="VUcrT0227LI-CP4dEkzV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-2" value="Controller:控制器&lt;br&gt;核心：DispatcherServlet&lt;br&gt;接收请求&lt;br&gt;转发请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="136" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-11" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-1" target="VUcrT0227LI-CP4dEkzV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="360" as="sourcePoint" />
+            <mxPoint x="160" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-12" value="1.发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUcrT0227LI-CP4dEkzV-11">
+          <mxGeometry x="0.124" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-13" target="VUcrT0227LI-CP4dEkzV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-13" target="VUcrT0227LI-CP4dEkzV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-13" value="处理器映射器：HandlerMapping&lt;br&gt;负责查找执行Handler&lt;br&gt;返回Handler" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-15" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;entryX=-0.013;entryY=0.147;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-2" target="VUcrT0227LI-CP4dEkzV-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="510" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-16" value="2.请求获取Handler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUcrT0227LI-CP4dEkzV-15">
+          <mxGeometry x="0.124" y="2" relative="1" as="geometry">
+            <mxPoint x="-12" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.015;entryY=0.898;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-19" target="VUcrT0227LI-CP4dEkzV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-19" value="视图View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-2" target="VUcrT0227LI-CP4dEkzV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-20" target="VUcrT0227LI-CP4dEkzV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-20" value="视图解析器：ViewResolver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-21" target="VUcrT0227LI-CP4dEkzV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-21" target="VUcrT0227LI-CP4dEkzV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-21" value="处理器适配器：HandlerAdapter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.697;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-22" target="VUcrT0227LI-CP4dEkzV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUcrT0227LI-CP4dEkzV-22" target="VUcrT0227LI-CP4dEkzV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-22" value="Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-26" value="12.响应请求" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-39" value="3.返回Handler" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-41" value="根据bean name&lt;br&gt;熟悉查找Handler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="185" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-42" value="Handler" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-43" value="6.返回ModelNAndView" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-44" value="5.调用方法，返回业务逻辑" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-45" value="4.请求执行Handler" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-46" value="7.返回视图ModelAndView" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-48" value="9.返回真正的视图对象" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-49" value="8.根据视图名称查找视图" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-50" value="10.进行视图渲染" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VUcrT0227LI-CP4dEkzV-51" value="11.返回渲染好的视图" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
